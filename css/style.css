@@ -1,0 +1,84 @@
+/* imp! css Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+/* imp! css variable Declaration */
+
+:root{
+    --dark-black: #030303;
+    --pure-white: #ffffff;
+    --sky-blue: #0D6EFD;
+    --gray: #686868;
+    --h1-font: 7rem;
+    --h2-font: 3.5rem;
+    --h3-font: 2.8rem;
+    --h4-font: 2.4rem;
+    --font-20px: 2rem;
+    --h5-font: 1.8rem;
+    --p-font: 1.6rem;
+    --font-segoe-UI: 'segoe UI';
+}
+
+/* imp! Body and  common css */
+
+body{
+    font-family: 'poppins';
+}
+
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0;
+}
+ .dark-black{
+    background-color: var(--dark-black);          
+}
+.dark-black-text{
+    color: var(--dark-black);          
+}
+.fw-600{
+    font-weight: 600;
+}
+.gray-clr{
+    color: var(--gray);
+}
+
+h1{
+    font-size: var(--h1-font);
+}
+
+h2{
+    font-size: var(--h2-font);
+}
+
+h3{
+    font-size: var(--h3-font);
+}
+
+h4{
+    font-size: var(--h4-font);
+}
+
+h5{
+    font-size: var(--h5-font);
+}
+
+p,.p-font-size{
+    font-size: var(--p-font);
+}
+
+
+.segoe-font{
+        font-family: var(--font-segoe-UI);
+}
+
+.mt-100{
+    margin-top:10rem;
+}
